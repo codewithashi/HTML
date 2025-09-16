@@ -1,0 +1,191 @@
+*{
+    margin: 2px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+.container{
+    box-sizing: border-box;
+    border: 1px solid rgb(237, 236, 236);
+}
+#container2{
+    position: relative;
+    min-height: 100vh;
+    z-index: 1;
+    border-top: rgb(93, 5, 93);
+    
+
+}
+#container2::before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn2.webdamdb.com/1280_2C6ASll3jrt65Qu3.jpg?1756194943");
+    background-size: cover;
+    background-position: center;
+    filter: blur(0.90px);
+    filter: brightness(-10px);
+    background-color: rgba(255,255,255,0.2);
+    background-blend-mode: overlay ;
+    z-index: -1;
+    opacity: 0.61;
+
+}
+header{
+    background-image: url("https://www.shutterstock.com/image-vector/abstract-green-wavy-background-vector-600nw-2515961801.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    opacity: 0.93;
+    filter: blur(0.63px);
+    
+}   
+header h1{
+    font-size: 1.99rem;
+    font-style: oblique;
+}
+header small{
+    font-size: 1rem;
+}
+#container2{
+    border: 2px solid rgb(175, 170, 170);
+}
+nav{
+    margin-top: 8px;
+    border-top: 1px solid rgba(27, 122, 146, 0.6);
+    border-left: 1px solid rgba(10, 93, 142, 0.6);
+    margin-left: 10px;
+    padding: 13px;
+    border-right: 1px solid rgba(11, 97, 140, 0.6);
+    margin-right: 10px;
+    background-color: #f5f4d2 ;
+    opacity: 0.88;
+    box-shadow: inset 2px 2px 0 rgba(0, 0 ,0 ,0.1);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav li:hover{
+    font-size: 1.1rem;
+    color:darkgreen;
+    font-weight: 565;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(6, 6, 188);
+}
+main{
+    display: flex;
+    margin: 1.5vh 1.3vh 2vh 1.1vh ;/*top-right-bottom-left*/
+}
+aside{
+     margin: 1vh 0 2vh 1vh;
+}
+/*#menu::before{
+    content: "=>";
+    display: inline;
+    font-weight: bold;
+}*/
+
+.left-block{
+    padding: 10px 0 10px 20px;
+    margin-right: -16vh;
+    border: 2px solid rgb(182, 234, 105);
+    background-color: rgb(179, 215, 105);
+    font-size: 1.50rem;
+    font-family:sans-serif;
+    box-shadow: inset 1px 1px 0 rgba(69, 69, 69, 0.1);
+}
+aside section{
+    margin-right: -16vh;
+    margin-top: 1vh;
+    box-shadow: inset 2px 2px 5px rgba(200, 200, 200,0.6);
+    font-weight: 510;
+    background-color: rgba(247, 247, 205, 0.64);
+    filter: brightness(0.1px);
+    background-blend-mode: overlay;
+    padding: 2px 0 2px 2px;
+    
+}
+aside p{
+    padding: 1vh 0 2vh 5vh;
+}
+aside ul{
+    list-style: none;
+    height: 52vh;
+    padding-left: 1.5vh;
+
+}
+aside ul li:hover{
+    font-size: 1.1rem;
+}
+aside .fa-solid{
+    padding-right: 25px;
+  
+}
+aside,.right-container{
+    margin: 0;
+    padding: 0;
+}
+.right-container{
+    border-left: 1.5px solid rgba(54, 54, 54,0.4);
+
+    padding: 6vh 2vh 3vh 10vh;
+    margin-left: 20vh;
+    box-shadow: 1px 2px 3.5px 2px  rgba(60, 64, 61,0.1);
+}
+.right-container h2{
+    font-size: 1.8rem;
+}
+.sub{
+    display: flex;
+    margin-top: 10vh;
+}
+#sub1{
+    border-right: 2px solid rgba(0, 0 ,0 ,0.4);
+}
+#other{
+    padding-left: 5vh;
+}
+.button{
+    height: 5vh;
+    width: 15vh;
+    box-shadow: 1px 2px 3.5px 0  rgba(68, 69, 67,0.8);
+    background-color: rgb(179, 215, 105);
+    font-weight: 549;
+}
+.button:hover{
+    box-shadow: 0 1px 1px 0 rgb(116, 19, 86);
+    height:5.1vh;
+    width: 15.1vh;
+    border-radius: 8px;
+}
+.right-container p{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-top: 1vh;
+    display: flex;
+    text-align:left;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer{
+    text-align: center;
+    height: 7vh;
+    padding-top: 2.5vh;
+    font-weight: 570;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid rgba(67, 66, 66,0.2);
+    background-color: rgb(179, 215, 105);
+}
+footer:hover{
+    background-color: rgb(130, 186, 18);
+    box-shadow: inset 1px 1px 2px 0 rgb(78, 119, 8) ;
+}
