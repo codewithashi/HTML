@@ -7,7 +7,7 @@ body{
     background-color: #F7EBAD;
 }
 .container{
-    margin: 0.55vh 30vh 1000vh 30vh ;
+    margin: 0.55vh 30vh 0.80vh 30vh ;
     box-sizing: border-box;
     border: 1px solid rgb(237, 236, 236);
 }
