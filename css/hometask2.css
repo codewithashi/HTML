@@ -1,15 +1,19 @@
 *{
-    margin: 2px;
-    padding: 1px;
+    margin: 0;
+    padding: 0.1px;
     box-sizing: border-box;
 }
+body{
+    background-color: #F7EBAD;
+}
 .container{
+    margin: 0.55vh 30vh 1000vh 30vh ;
     box-sizing: border-box;
-    border: 1px solid rgb(237, 236, 236);
+    /*border: 1px solid rgb(237, 236, 236);*/
 }
 #container2{
     position: relative;
-    min-height: 100vh;
+    min-height: 80vh;
     z-index: 1;
     border-top: rgb(93, 5, 93);
     
@@ -34,22 +38,29 @@
 
 }
 header{
-    background-image: url("https://www.shutterstock.com/image-vector/abstract-green-wavy-background-vector-600nw-2515961801.jpg");
+    /*background-image: url("https://www.shutterstock.com/image-vector/abstract-green-wavy-background-vector-600nw-2515961801.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: overlay;
     opacity: 0.93;
-    filter: blur(0.63px);
+    filter: blur(0.63px);*/
+    /*border: 2px solid rgb(182, 234, 105);*/
+    border: 2px solid rgb(175, 170, 170);
+    background-color: rgb(145, 198, 40);
+    box-shadow:  1px 1px 0 rgba(131, 233, 47, 0.1);
+    height: 23vh;
     
 }   
 header h1{
-    font-size: 1.99rem;
+    font-size: 1.55rem;
     font-style: oblique;
+    margin: 0.5vh 0 0 100vh;
 }
 header small{
     font-size: 1rem;
+    margin: 0.5vh 0 0 100vh;
 }
 #container2{
     border: 2px solid rgb(175, 170, 170);
@@ -64,6 +75,7 @@ nav{
     margin-right: 10px;
     background-color: #f5f4d2 ;
     opacity: 0.88;
+    height: 8vh;
     box-shadow: inset 2px 2px 0 rgba(0, 0 ,0 ,0.1);
 }
 nav ul{
@@ -83,6 +95,7 @@ nav a{
 main{
     display: flex;
     margin: 1.5vh 1.3vh 2vh 1.1vh ;/*top-right-bottom-left*/
+    height: 80vh;
 }
 aside{
      margin: 1vh 0 2vh 1vh;
@@ -114,19 +127,21 @@ aside section{
     
 }
 aside p{
-    padding: 1vh 0 2vh 5vh;
+    padding: 2vh 0 2vh 5vh;
 }
 aside ul{
     list-style: none;
-    height: 52vh;
-    padding-left: 1.5vh;
+    height: 40vh;
+    padding-left: 1.8vh;
+    font-size: 0.95rem;
 
 }
 aside ul li:hover{
     font-size: 1.1rem;
 }
 aside .fa-solid{
-    padding-right: 25px;
+    padding-right: 35px;
+    margin-left: 3vh;
   
 }
 aside,.right-container{
@@ -135,13 +150,12 @@ aside,.right-container{
 }
 .right-container{
     border-left: 1.5px solid rgba(54, 54, 54,0.4);
-
-    padding: 6vh 2vh 3vh 10vh;
-    margin-left: 20vh;
+    padding: 1.3vh 1vh 3vh 10vh;
+    margin-left: 18vh;
     box-shadow: 1px 2px 3.5px 2px  rgba(60, 64, 61,0.1);
 }
 .right-container h2{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 .sub{
     display: flex;
@@ -149,6 +163,9 @@ aside,.right-container{
 }
 #sub1{
     border-right: 2px solid rgba(0, 0 ,0 ,0.4);
+    font-size: 0.15vh;
+    padding-right: 9vh;
+    height: 40vh;
 }
 #other{
     padding-left: 5vh;
@@ -159,6 +176,7 @@ aside,.right-container{
     box-shadow: 1px 2px 3.5px 0  rgba(68, 69, 67,0.8);
     background-color: rgb(179, 215, 105);
     font-weight: 549;
+    cursor: pointer;
 }
 .button:hover{
     box-shadow: 0 1px 1px 0 rgb(116, 19, 86);
@@ -167,8 +185,8 @@ aside,.right-container{
     border-radius: 8px;
 }
 .right-container p{
-    font-size: 1.1rem;
-    line-height: 1.8;
+    font-size: 1rem;
+    line-height: 1.2;
     margin-top: 1vh;
     display: flex;
     text-align:left;
@@ -178,12 +196,15 @@ footer{
     text-align: center;
     height: 7vh;
     padding-top: 2.5vh;
+    padding-bottom: 2vh;
+    margin-bottom: 0.30vh;
     font-weight: 570;
     font-size: 1.1rem;
     border-radius: 8px;
     box-sizing: border-box;
     border: 1px solid rgba(67, 66, 66,0.2);
     background-color: rgb(179, 215, 105);
+    cursor: pointer;
 }
 footer:hover{
     background-color: rgb(130, 186, 18);
